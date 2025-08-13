@@ -5,13 +5,13 @@
 	name = "Ork"
 	id = "ork"
 	desc = "<b>Orks</b><br>\
-  "Having thier blood blessed by the skyfather cenduries ago, they have forsaken thier \
-  ancestral ways. Most orc interactions are done with  fur trading posts and prospecting camps. \
-  Orcs are more sentient than thier Oger kin, who are regarded as more beast-like than manlike. \
-  If not for the Oger existance, perhaps the orcish question would be far more nagative than it is? \
-  They smelt metal, traders of the far south and east of the Salt-Silk roads. \
-  Thier speech is said to flow like honey, and is as elegent as tar and stone. \
-  Orcs in urban life are a common enough sight to not raise an eye, yet rare enough to be questioned." \
+ "Having thier blood blessed by the skyfather centuries ago, they have forsaken thier \ 
+  ancestral ways. Most orc interactions are done with fur trading posts and prospecting camps. \
+  Orks are more sentient than thier Ogre kin, who are regarded as more beast-like than manlike. \ 
+  If not for the Ogre existance, perhaps the orcish question would be far more negative than it is. \ 
+  They smelt metal, traders of the far south and east of the Salt-Silk roads. \ 
+  Thier speech is said to flow like honey, and is as elegant as tar and stone. \ 
+  Orks in urban life are a common enough sight enough to not raise an eye, yet rare enough to be weary of." \
 
 	skin_tone_wording = "Blessing"
 
