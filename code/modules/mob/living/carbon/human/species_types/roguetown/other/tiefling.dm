@@ -1,3 +1,4 @@
+// NOTE: Heavy Alteration needed to the existing code to be functional. Temporary
 /mob/living/carbon/human/species/tieberian
 	race = /datum/species/tieberian
 
@@ -5,17 +6,19 @@
 	name = "Tiefling"
 	id = "tiefling"
 	desc = "<b>Tiefling</b><br>\
-	Tieflings, also known as Infernal-Spawn by the Dwarves, are a relatively new species in Grimmoria\
-	Having shown up sometime within the past two centuries, very little is known about their culture \
-	as many seem to simply intergrate within whatever society they find themselves in. \
-	Tieflings usually cause strong disturbances with their presence, as their fiendish looks \
-	have claimed that they are the spawn of a succubus (Or incubus) laying with a mortal. \
-	In this, their species has suffered vast tragedy throughout their short history, \
-	Facing scrutiny, judgement and even genocide in the past. Wounding many tiefling psyche \
-	and leading to most seeking a solitary life outside the watchful eyes of others. \
-	Tiefling cannot reproduce with mortals, and so no half-breed exists. \
-	Tiefling tend to be extremely perceptive and paranoid, as luck is rarely on their side \
-	and their unique biology makes them extremely susceptible to injury."
+	Tieflings, the catch-all term for the races that came to the world after the\
+	Scorched Generation. Little is known about them, even less than that of the Orks.\
+	Despite the general disgust and superstition for Tieflings, come cities in this age have\
+	given them equal citizenry as all other Maeyr. A preposterious consept. \
+	Outside the few cities, they as a race have suffered greatly. \
+	Tieflings are not merely one race, though three distinct groups with the same cursed blood.\
+    Tiberians for those of human features. Elvarian for Elves. Hornstones for Dwarves. \
+	Facing scrutiny, judgement and mass-exile in the past. Wounding many tiefling psyche \
+	and leading to most seeking a solitary life outside the watchful eyes of other races. \
+    Many Tieflings thus share a connection with the Orks, though it it solely one-way, and \
+    Formed out of self-pity.\
+	Tiefling are able to reproduce with mortals, though only producing other full-blooded tieflings. \ 
+    No half-breed exists." \
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,STUBBLE,OLDGREY)
 	inherent_traits = list(TRAIT_NOMOBSWAP)
 	default_features = list("mcolor" = "FFF", "ears" = "ElfW", "tail_human" = "TiebTail", "horns" = "TiebHorns")
@@ -43,8 +46,8 @@
 	OFFSET_FACE_F = list(0,-1), OFFSET_BELT_F = list(0,-1), OFFSET_BACK_F = list(0,-1), \
 	OFFSET_NECK_F = list(0,-1), OFFSET_MOUTH_F = list(0,-1), OFFSET_PANTS_F = list(0,0), \
 	OFFSET_SHIRT_F = list(0,0), OFFSET_ARMOR_F = list(0,0), OFFSET_UNDIES_F = list(0,0))
-	specstats = list("strength" = 0, "perception" = 1, "intelligence" = 2, "constitution" = -1, "endurance" = 0, "speed" = 0, "fortune" = -1)
-	specstats_f = list("strength" = -1, "perception" = 1, "intelligence" = 2, "constitution" = -2, "endurance" = 1, "speed" = 1, "fortune" = -1)
+	specstats = list("strength" = 1,"constitution" = -1, "speed" = 1, "fortune" = -1)
+	specstats_f = list("strength" = -1,"constitution" = -1, "speed" = 1, "fortune" = 1)
 	enflamed_icon = "widefire"
 	patreon_req = 1
 
@@ -132,4 +135,4 @@
 	return " [pick(world.file2list("strings/rt/names/other/tieflast.txt"))]"
 
 /datum/species/tieberian/get_accent_list()
-	return strings("spanish_replacement.json", "spanish")
+	return strings("spanish_replacement.json", "spanish") 
