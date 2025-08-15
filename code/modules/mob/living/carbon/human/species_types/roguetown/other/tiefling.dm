@@ -13,8 +13,7 @@
 	Outside the few cities, they as a race have suffered greatly. \
 	Tieflings are not merely one race, though three distinct groups with the same cursed blood.\
     Tiberians for those of human features. Elvarian for Elves. Hornstones for Dwarves. \
-	Facing scrutiny, judgement and mass-exile in the past. Wounding many tiefling psyche \
-	and leading to most seeking a solitary life outside the watchful eyes of other races. \
+    Most seek a solitary life outside the watchful eyes of other races. \
     Many Tieflings thus share a connection with the Orks, though it it solely one-way. \
     Formed out of self-pity. Tiefling are able to reproduce with mortals, \ 
     though only producing other full-blooded tieflings. No half-breed exists." \
