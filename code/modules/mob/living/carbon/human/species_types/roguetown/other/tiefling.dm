@@ -17,7 +17,7 @@
 	and leading to most seeking a solitary life outside the watchful eyes of other races. \
     Many Tieflings thus share a connection with the Orks, though it it solely one-way. \
     Formed out of self-pity. Tiefling are able to reproduce with mortals, \ 
-    though only producing other full-blooded tieflings. No half-breed exists."\
+    though only producing other full-blooded tieflings. No half-breed exists." \
 
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,STUBBLE,OLDGREY)
 	inherent_traits = list(TRAIT_NOMOBSWAP)
