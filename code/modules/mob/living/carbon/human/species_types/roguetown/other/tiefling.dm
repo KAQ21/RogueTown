@@ -94,11 +94,12 @@
 
 /datum/species/tieberian/get_skin_list()
 	return sortList(list(
-	"Arusag" = "cc5757",
-	"Yazda" = "ff0000",
-	"Tekagor" = "D2042D",
-	"Dzovak" = "a23737"
+	"Arusag" = SKIN_COLOR_ARUSAG,
+	"Yazda" = SKIN_COLOR_YAZDA,
+	"Tekagor" = SKIN_COLOR_TEKAGOR,
+	"Dzovak" = SKIN_COLOR_DZOVAK 
 	))
+	
 
 /datum/species/tieberian/get_hairc_list()
 	return sortList(list(
