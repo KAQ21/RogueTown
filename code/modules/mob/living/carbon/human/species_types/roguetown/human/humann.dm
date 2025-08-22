@@ -39,8 +39,9 @@
 	OFFSET_FACE_F = list(0,-1), OFFSET_BELT_F = list(0,0), OFFSET_BACK_F = list(0,-1), \
 	OFFSET_NECK_F = list(0,-1), OFFSET_MOUTH_F = list(0,-1), OFFSET_PANTS_F = list(0,0), \
 	OFFSET_SHIRT_F = list(0,0), OFFSET_ARMOR_F = list(0,0), OFFSET_UNDIES_F = list(0,0))
-	specstats = list("strength" = 0, "perception" = 1, "intelligence" = -1, "constitution" = 0, "endurance" = 1, "speed" = -1, "fortune" = 0)
-	specstats_f = list("strength" = -1, "perception" = 0, "intelligence" = 2, "constitution" = -1, "endurance" = 0, "speed" = 1, "fortune" = 0)
+	specstats = list("strength" = 1, "intelligence" = -1, "constitution" = -1, "endurance" = 1)
+	specstats_f = list("strength" = -1, "intelligence" = 1, "constitution" = 1, "endurance" = -1)
+
 	enflamed_icon = "widefire"
 	possible_faiths = list(FAITH_PSYDON)
 
@@ -49,17 +50,12 @@
 
 /datum/species/human/northern/get_skin_list()
 	return sortList(list(
-	"skin1" = "ffe0d1",
-	"skin2" = "fcccb3",
-	"skin3" = "edc6b3",
-	"skin4" = "e2b9a3",
-	"skin5" = "d9a284",
-	"skin6" = "c9a893",
-	"skin7" = "ba9882",
-	"skin8" = "ac8369",
-	"skin9" = "9c6f52"
-	))
-
+	"Orsen" = SKIN_COLOR_ORSEN,
+	"Kathar" = SKIN_COLOR_KATHAR,
+	"Erudon" = SKIN_COLOR_ERUDON,
+	"Nollios" = SKIN_COLOR_NOLLIOS,
+	"Ervania" = SKIN_COLOR_ERVANIA
+)
 /datum/species/human/northern/get_hairc_list()
 	return sortList(list(
 	"blond - pale" = "9d8d6e",
