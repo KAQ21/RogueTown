@@ -14,8 +14,8 @@
 	Tieflings are not merely one race, though three distinct groups with the same cursed blood.\
     Tiberians for those of human features. Elvarian for Elves. Hornstones for Dwarves. \
     Most seek a solitary life outside the watchful eyes of other races. \
-    Many Tieflings thus share a connection with the Orks, though it it solely one-way. \
-    Formed out of self-pity. Tiefling are able to reproduce with mortals, no half-tief exists." \
+    Many Tieflings thus share a connection with the Orks/ Though it it solely one-way, \
+    formed out of self-pity. Tiefling are able to reproduce with mortals, though no half-tief exists." \
 
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,STUBBLE,OLDGREY)
 	inherent_traits = list(TRAIT_NOMOBSWAP)
