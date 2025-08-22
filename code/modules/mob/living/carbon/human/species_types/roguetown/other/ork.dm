@@ -13,7 +13,7 @@
   Thier speech is said to flow like honey, and is as elegant as tar and stone. \ 
   Orks in urban life are a common enough sight enough to not raise an eye, yet rare enough to be weary of." \
 
-	skin_tone_wording = "Blessing"
+	skin_tone_wording = "Blessing Site"
 
   species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,STUBBLE,OLDGREY)
 	inherent_traits = list(TRAIT_NOMOBSWAP)
@@ -104,7 +104,7 @@
 	return list(
 		"Shellcrest" = SKIN_COLOR_SHELLCREST,
 		"Bloodaxe" = SKIN_COLOR_BLOOD_AXE,
-		"Splitjaw" = SKIN_COLOR_GROONN, //Changed name from Gronn, which no longer aligned with lore here or elsewhere.
+		"Splitjaw" = SKIN_COLOR_WHITE_HAMMER,
 		"Blackhammer" = SKIN_COLOR_BLACK_HAMMER,
 		"Skullseeker" = SKIN_COLOR_SKULL_SEEKER,
 		"Lightraider" = SKIN_COLOR_LIGHT_RAIDER
