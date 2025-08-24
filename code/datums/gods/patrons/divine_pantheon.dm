@@ -8,7 +8,7 @@
 	name = "Silores"
 	domain = "Goddess of the Sun, the Day, and Fire"
 	desc = "The lady of Flame and Light, gifted man zealotry and matyrdom"
-	worshippers = "The Noble Hearted, Zealots and Farmers"
+	worshippers = "The Noble Hearted, Zealots and Knights"
 	t1 = /obj/effect/proc_holder/spell/invoked/sacred_flame_rogue
 	t2 = /obj/effect/proc_holder/spell/targeted/smite
 	t3 = /obj/effect/proc_holder/spell/invoked/revive
