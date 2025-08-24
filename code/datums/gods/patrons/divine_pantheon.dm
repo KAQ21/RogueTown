@@ -11,7 +11,7 @@
 	worshippers = "The Noble Hearted, Zealots and Knights"
 	t1 = /obj/effect/proc_holder/spell/invoked/sacred_flame_rogue
 	t2 = /obj/effect/proc_holder/spell/targeted/smite
-	t3 = /obj/effect/proc_holder/spell/invoked/revive
+	t3 = /obj/effect/proc_holder/spell/invoked/projectile/fireball
 	confess_lines = list(
 		"SILORES IS MY LIGHT!",
 		"MAY SILORES CLEANSE YOUR WITH FIRE!",
@@ -27,7 +27,8 @@
 	t1 = /obj/effect/proc_holder/spell/invoked/blindness
     t1 = /obj/effect/proc_holder/spell/invoked/lesser_heal
 	t2 = /obj/effect/proc_holder/spell/invoked/invisibility
-    t2 = /obj/effect/proc_holder/spell/invoked/wound_heal
+	t2 = /obj/effect/proc_holder/spell/targeted/conjure_vines
+    t3 = /obj/effect/proc_holder/spell/invoked/wound_heal
 	confess_lines = list( )
 
 /datum/patron/divine/qot
@@ -38,8 +39,9 @@
 	mob_traits = list(TRAIT_NOCTURNAL, TRAIT_VINE_WALKER)
 	t1 = /obj/effect/proc_holder/spell/invoked/blindness
     t1 = /obj/effect/proc_holder/spell/invoked/lesser_heal
-	t1 = /obj/effect/proc_holder/spell/targeted/blesscrop
+	t2 = /obj/effect/proc_holder/spell/targeted/blesscrop
 	t2 = /obj/effect/proc_holder/spell/targeted/conjure_vines
+    t3 = /obj/effect/proc_holder/spell/invoked/wound_heal
 	confess_lines = list()
 
 /datum/patron/divine/vatnas
@@ -49,7 +51,7 @@
 	worshippers = "Warriors, Justice-seekers and Smiths"
 	t1 = /obj/effect/proc_holder/spell/invoked/burden
     t1 = /obj/effect/proc_holder/spell/invoked/blood_heal
-    t2 = /obj/effect/proc_holder/spell/invoked/vatnas_endure
+    t2 = /obj/effect/proc_holder/spell/invoked/vatnasendure
 	confess_lines = list()
 
 
