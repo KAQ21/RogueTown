@@ -4,72 +4,58 @@
 	t0 = list(/obj/effect/proc_holder/spell/targeted/touch/orison, /obj/effect/proc_holder/spell/invoked/lesser_heal)
 
 
-/datum/patron/divine/astrata
-	name = "Astrata"
-	domain = "Goddess of the Sun, Day, and Order"
-	desc = "The Firstborn of Psydon, twin of Noc, gifted man the Sun as her divine gift."
+/datum/patron/divine/silores
+	name = "Silores"
+	domain = "Goddess of the Sun, the Day, and Fire"
+	desc = "The lady of Flame and Light, gifted man zealotry and matyrdom"
 	worshippers = "The Noble Hearted, Zealots and Farmers"
 	t1 = /obj/effect/proc_holder/spell/invoked/sacred_flame_rogue
 	t2 = /obj/effect/proc_holder/spell/targeted/smite
 	t3 = /obj/effect/proc_holder/spell/invoked/revive
 	confess_lines = list(
-		"ASTRATA IS MY LIGHT!",
-		"ASTRATA BRINGS LAW!",
-		"I SERVE THE GLORY OF THE SUN!",
+		"SILORES IS MY LIGHT!",
+		"MAY SILORES CLEANSE YOUR WITH FIRE!",
+		"I SERVE THE GLORY OF THE FLAME!",
 	)
 
-/datum/patron/divine/noc
-	name = "Noc"
-	domain = "God of the Moon, Night, and Knowledge"
-	desc = "The Firstborn of Psydon, twin of Astrata, gifted man divine knowledge."
-	worshippers = "Wizards and Scholars"
-	mob_traits = list(TRAIT_NOCTURNAL) //lighting alpha 245. DV spell is 220, DV spell w/noc or DV special is 200
+/datum/patron/divine/bal
+	name = "Balgromel"
+	domain = "Father of All. God of Nature. Of Endurance and Iron-will."
+	desc = "Father of the Gods. He taught Maeyr how to wield a blade and scorch the earth. To reforge life by your own hands and will."
+	worshippers = "Madmen, Fathers, Scholar-Wizards, Warrior-kings and Druids"
+	mob_traits = list(TRAIT_NOCTURNAL, TRAIT_VINE_WALKER) //lighting alpha 245. DV spell is 220, DV spell w/noc or DV special is 200
 	t1 = /obj/effect/proc_holder/spell/invoked/blindness
+    t1 = /obj/effect/proc_holder/spell/invoked/lesser_heal
 	t2 = /obj/effect/proc_holder/spell/invoked/invisibility
-	confess_lines = list(
-		"NOC IS NIGHT!",
-		"NOC SEES ALL!",
-		"I SEEK THE MYSTERIES OF THE MOON!",
-	)
+    t2 = /obj/effect/proc_holder/spell/invoked/wound_heal
+	confess_lines = list( )
 
-/datum/patron/divine/dendor
-	name = "Dendor"
-	domain = "God of the Earth and Nature"
-	desc = "The Primordial Son of Psydon, patron of beasts and the wood. Gone mad with time."
-	worshippers = "Druids, Beasts, Madmen"
-	mob_traits = list(TRAIT_VINE_WALKER)
+/datum/patron/divine/qot
+	name = "Qotia"
+	domain = "Mother of all. Goddess of the Earth. Of Motherhood and Young Love."
+	desc = "Mother of the Gods. She taught Maeyr to farm and harvest. To enjoy life to its fullest."
+	worshippers = "Lovers, Mothers, Butchers, Farmers and Gardeners"
+	mob_traits = list(TRAIT_NOCTURNAL, TRAIT_VINE_WALKER)
+	t1 = /obj/effect/proc_holder/spell/invoked/blindness
+    t1 = /obj/effect/proc_holder/spell/invoked/lesser_heal
 	t1 = /obj/effect/proc_holder/spell/targeted/blesscrop
-	t2 = /obj/effect/proc_holder/spell/invoked/beasttame
-	t3 = /obj/effect/proc_holder/spell/targeted/conjure_vines
-	confess_lines = list(
-		"DENDOR PROVIDES!",
-		"THE TREEFATHER BRINGS BOUNTY!",
-		"I ANSWER THE CALL OF THE WILD!",
-	)
+	t2 = /obj/effect/proc_holder/spell/targeted/conjure_vines
+	confess_lines = list()
 
-/datum/patron/divine/abyssor
-	name = "Abyssor"
-	domain = "God of the Ocean, Storms and the Tide"
-	desc = "The Beloved Son, gifted primordial men food and water."
-	worshippers = "Men of the Sea, Primitive Aquatics"
-	confess_lines = list(
-		"ABYSSOR COMMANDS THE WAVES!",
-		"THE OCEAN'S FURY IS ABYSSOR'S WILL!",
-		"I AM DRAWN BY THE PULL OF THE TIDE!",
-	)
-
-/datum/patron/divine/ravox
-	name = "Ravox"
-	domain = "God of War, Justice and Strength"
-	desc = "The strongest of Psydon's children, he watches man from afar."
-	worshippers = "Warriors, Sellswords & those who seek Justice"
+/datum/patron/divine/vatnas
+	name = "Vatnas"
+	domain = "Guider of Humanity, Twin-prince of A[]. Lord-to-be-enlightened."
+	desc = "Guided humanity after defeating the Dark Elder. He watches man from afar now, seeking enlightenment."
+	worshippers = "Warriors, Justice-seekers and Smiths"
 	t1 = /obj/effect/proc_holder/spell/invoked/burden
-	confess_lines = list(
-		"RAVOX IS JUSTICE!",
-		"THROUGH STRIFE, GRACE!",
-		"THE DRUMS OF WAR BEAT IN MY CHEST!",
-	)
+    t1 = /obj/effect/proc_holder/spell/invoked/blood_heal
+    t2 = /obj/effect/proc_holder/spell/invoked/vatnas_endure
+	confess_lines = list()
 
+
+////////////////////////////////////////////////////////
+// Saving these for The Heathen ones, unsure of A[] ? //
+////////////////////////////////////////////////////////
 /datum/patron/divine/necra
 	name = "Necra"
 	domain = "Goddess of Death and the Afterlife"
@@ -83,24 +69,6 @@
 		"ALL SOULS FIND THEIR WAY TO NECRA!",
 		"THE UNDERMAIDEN IS OUR FINAL REPOSE!",
 		"I FEAR NOT DEATH, MY LADY AWAITS ME!",
-	)
-
-/datum/patron/divine/xylix
-	name = "Xylix"
-	domain = "God of Trickery, Freedom and Inspiration"
-	desc = "The Mad-God, gifted man wanderlust and a thousand tricks."
-	worshippers = "Cheats, Frauds, Silver-Tongued devils and Roguish Types"
-	confess_lines = list(
-		"ASTRATA IS MY LIGHT!",
-		"NOC IS NIGHT!",
-		"DENDOR PROVIDES!",
-		"ABYSSOR COMMANDS THE WAVES!",
-		"RAVOX IS JUSTICE!",
-		"ALL SOULS FIND THEIR WAY TO NECRA!",
-		"HAHAHAHA! AHAHAHA! HAHAHAHA!",
-		"PESTRA SOOTHES ALL ILLS!",
-		"MALUM IS MY MUSE!",
-		"EORA BRINGS US TOGETHER!",
 	)
 
 /datum/patron/divine/pestra
