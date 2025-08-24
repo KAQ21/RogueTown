@@ -48,7 +48,7 @@
 		H.mind.AddSpell(new C) 
 
 // General
-/obj/effect/proc_holder/spell/invoked/heal/lesser
+/obj/effect/proc_holder/spell/invoked/lesser_heal
 	name = "Lesser Miracle"
 	overlay_state = "lesserheal"
 	releasedrain = 30
